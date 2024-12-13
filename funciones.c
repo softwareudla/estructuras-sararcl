@@ -19,7 +19,7 @@ int menu() {
 
 void registrarLibro(struct Libro libros[], int indice, int *contadorID) {
     if (indice < 20) {
-        libros[indice].id = (*contadorID)++;  // Asigna un ID único y lo incrementa
+        libros[indice].id = (*contadorID)++;
         printf("\nIngrese el titulo del libro: ");
         getchar();
         fgets(libros[indice].titulo, 100, stdin);

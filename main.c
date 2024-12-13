@@ -47,7 +47,7 @@ int main() {
                 eliminarLibro(libros, &i);
                 break;
             case 7:
-                printf("Saliendo del programa...\n");
+                printf("Saliendo del programa.\n");
                 break;
             default:
                 printf("Opcion inválida. Por favor, ingrese una opcion valida.\n");
